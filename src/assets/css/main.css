@@ -1,0 +1,88 @@
+/* HIGHFLYER CONTRACTORS Vue.js Styles */
+
+/* Import the original CSS file */
+@import url('../../../assets/css/main.css');
+
+/* Additional Vue-specific styles */
+.client-card {
+  background: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+   
+}
+
+.client-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.member-qualification {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/* Ensure proper spacing for additional team members */
+.member-card .member-content {
+  padding: 1rem;
+}
+
+/* Client logo styling */
+.client-logo img {
+
+  transition: all 0.3s ease;
+}
+
+
+
+/* Simple animations to replace AOS */
+[data-aos] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+[data-aos].animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-aos="fade-up"].animate-in {
+  transform: translateY(0);
+}
+
+[data-aos="fade-left"].animate-in {
+  transform: translateX(0);
+}
+
+[data-aos="fade-right"].animate-in {
+  transform: translateX(0);
+}
+
+[data-aos="zoom-in"].animate-in {
+  transform: scale(1);
+}
+
+[data-aos="fade-left"] {
+  transform: translateX(-20px);
+}
+
+[data-aos="fade-right"] {
+  transform: translateX(20px);
+}
+
+[data-aos="zoom-in"] {
+  transform: scale(0.95);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .member-card {
+    margin-bottom: 1rem;
+  }
+  
+  .client-card {
+    margin-bottom: 1rem;
+  }
+}
