@@ -1,5 +1,5 @@
 <template>
-  <section id="team" class="team section">
+  <section id="team" class="team section light-background">
     <div class="container section-title" data-aos="fade-up">
       <h2>Our Team</h2>
       <p>
@@ -7,99 +7,85 @@
         delivery
       </p>
     </div>
+
     <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="row g-4 align-items-stretch">
-        <div
-          v-for="(member, index) in team"
-          :key="member.id"
-          class="col-md-6 col-lg-3"
-        >
-          <article
-            class="member-card h-100"
-            data-aos="zoom-in"
-            :data-aos-delay="150 + index * 50"
-          >
-            <div class="member-content">
-              <h3 class="member-name">{{ member.name }}</h3>
-              <p class="member-role">{{ member.role }}</p>
-              <small class="member-qualification">{{
-                member.qualification
-              }}</small>
-              <p class="member-bio">{{ member.bio }}</p>
-            </div>
-          </article>
+      <div class="row g-4 justify-content-center">
+        <!-- Team Philosophy Card -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
+          <div class="team-card">
+            <i class="bi bi-people-fill icon"></i>
+            <h3>Our Expertise</h3>
+            <p>
+              Our team comprises a corporate finance practitioner, an
+              educational management practitioner, a legal practitioner, a
+              quantity surveying practitioner, a civil and environmental
+              engineering practitioner, a resource assurance and fraud
+              management practitioner, a supply chain management practitioner, a
+              risk management specialist, a project management practitioner, a
+              relationship management specialist, a business psychology
+              consultant, and a Software Engineer.
+            </p>
+          </div>
+        </div>
+
+        <!-- Core Strength Card -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="250">
+          <div class="team-card">
+            <i class="bi bi-trophy-fill icon"></i>
+            <h3>Our Strength</h3>
+            <p>
+              Together, our diverse expertise ensures every project we undertake
+              is managed with professionalism, creativity, and precision —
+              delivering lasting value for our clients and communities.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup>
-import { reactive } from "vue";
+<style scoped>
 
-const team = reactive([
-  {
-    id: 1,
-    name: "Dr. S. Yahaya",
-    role: "Finance Director",
-    qualification: "Ph.D Finance",
-    bio: "Leading our financial strategy and ensuring fiscal responsibility across all projects with extensive experience in financial management.",
-  },
-  {
-    id: 2,
-    name: "Barr. Nasiru Mato Esq.",
-    role: "Legal Counsel",
-    qualification: "LL.B. Law, BL",
-    bio: "Providing expert legal guidance and ensuring compliance across all business operations with comprehensive legal expertise.",
-  },
-  {
-    id: 3,
-    name: "QS. Abubakar Yahuza",
-    role: "Quantity Surveyor",
-    qualification: "HND Quantity Survey",
-    bio: "Managing project costs and ensuring accurate quantity measurements and valuations with precision and expertise.",
-  },
-  {
-    id: 4,
-    name: "Engr. Kabiru Shu'aibu",
-    role: "Civil Engineer",
-    qualification: "B.Eng. Civil Engineering",
-    bio: "Leading our engineering projects with expertise in structural and civil works, ensuring quality and safety standards.",
-  },
-  {
-    id: 5,
-    name: "Rakiya Musa",
-    role: "Public Administration",
-    qualification: "HND Public Administration",
-    bio: "Managing administrative operations and ensuring efficient organizational processes.",
-  },
-  {
-    id: 6,
-    name: "Adamu Musa",
-    role: "Communications Specialist",
-    qualification: "B.A. Mass Communication",
-    bio: "Managing communications and stakeholder relations with expertise in media and public relations.",
-  },
-  {
-    id: 7,
-    name: "Abdulhamid Muhammad Babaalkali",
-    role: "IT Specialist",
-    qualification: "HND Computer Science",
-    bio: "Managing technology infrastructure and digital solutions for enhanced project delivery.",
-  },
-  {
-    id: 8,
-    name: "Bashir Muhammad",
-    role: "Data Analyst",
-    qualification: "B.Sc. (Hons) Statistics",
-    bio: "Providing statistical analysis and data-driven insights for informed decision making.",
-  },
-  {
-    id: 9,
-    name: "Maryam A. Moyi",
-    role: "Human Resources",
-    qualification: "B.Ed. Guidance and Counseling",
-    bio: "Managing human resources and ensuring team development and organizational growth.",
-  },
-]);
-</script>
+.team-card {
+  text-align: center;
+  background: #fff;
+  border: 1px dashed var(--soft-border);
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 20px 50px
+    color-mix(in srgb, var(--default-color), transparent 90%);
+  transition: all 0.3s ease;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-color);
+  box-shadow: 0 24px 60px
+    color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.team-card .icon {
+  font-size: 40px;
+  color: var(--accent-color);
+  background: var(--accent-soft);
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 18px;
+}
+
+.team-card h3 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--heading-color);
+  margin-bottom: 12px;
+}
+
+.team-card p {
+  color: var(--muted-text);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+</style>
+

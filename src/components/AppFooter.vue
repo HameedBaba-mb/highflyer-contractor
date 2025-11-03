@@ -11,8 +11,6 @@
               Building Excellence, Delivering Value. Your trusted partner in
               construction, engineering, and project management.
             </p>
-
-           
           </div>
         </div>
 
@@ -20,21 +18,62 @@
           <div class="footer-links-grid">
             <div class="row">
               <div class="col-6 col-md-4">
-                <h5>Company</h5>
+                <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                  <li><a href="#about">About Us</a></li>
-                  <li><a href="#team">Our Team</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li>
+                    <a href="#" @click="scrollToSection('about', $event)"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      @click="scrollToSection('vision-mission', $event)"
+                      >Vision & Mission</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      @click="scrollToSection('featured-services', $event)"
+                      >Services</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" @click="scrollToSection('portfolio', $event)"
+                      >Projects</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" @click="scrollToSection('contact', $event)"
+                      >Contact</a
+                    >
+                  </li>
                 </ul>
               </div>
               <div class="col-6 col-md-4">
                 <h5>Services</h5>
                 <ul class="list-unstyled">
-                  <li><a href="#services">General Contract</a></li>
-                  <li><a href="#services">Engineering & Construction</a></li>
-                  <li><a href="#services">Project Management</a></li>
-                  <li><a href="#services">Consultancy</a></li>
+                  <li>
+                    <a href="#" @click="scrollToSection('services', $event)"
+                      >General Contract</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" @click="scrollToSection('services', $event)"
+                      >Engineering & Construction</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" @click="scrollToSection('services', $event)"
+                      >Project Management</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" @click="scrollToSection('services', $event)"
+                      >Consultancy</a
+                    >
+                  </li>
                 </ul>
               </div>
               <div class="col-6 col-md-4">
@@ -54,7 +93,12 @@
         <div class="col-lg-2">
           <div class="footer-cta">
             <h5>Let's Connect</h5>
-            <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            <a
+              href="#"
+              @click="scrollToSection('contact', $event)"
+              class="btn btn-outline"
+              >Get in Touch</a
+            >
           </div>
         </div>
       </div>
@@ -78,5 +122,23 @@
 </template>
 
 <script setup>
-// Footer component logic can be added here if needed
+const scrollToSection = (sectionId, event) => {
+  event.preventDefault();
+
+  // Get the target section
+  const targetSection = document.querySelector(`#${sectionId}`);
+
+  if (targetSection) {
+    // Calculate offset for header height
+    const headerHeight = document.querySelector("#header")?.offsetHeight || 0;
+    const elementPosition = targetSection.offsetTop - headerHeight;
+
+    window.scrollTo({
+      top: elementPosition,
+      behavior: "smooth",
+    });
+  } else {
+    console.warn(`Section with ID "${sectionId}" not found`);
+  }
+};
 </script>

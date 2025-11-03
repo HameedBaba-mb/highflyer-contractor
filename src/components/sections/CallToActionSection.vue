@@ -5,8 +5,16 @@
         <div class="content-block">
           <div class="row align-items-center">
             <div class="col-lg-12">
-              <div class="text-content" data-aos="fade-right" data-aos-delay="200">
-                <div class="section-label" data-aos="fade-up" data-aos-delay="250">
+              <div
+                class="text-content"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <div
+                  class="section-label"
+                  data-aos="fade-up"
+                  data-aos-delay="250"
+                >
                   <span>Transform Your Vision</span>
                 </div>
                 <h2 data-aos="fade-up" data-aos-delay="300">
@@ -14,13 +22,20 @@
                   <span class="accent-text">Reality</span>
                 </h2>
                 <p data-aos="fade-up" data-aos-delay="350">
-                  At HIGHFLYER CONTRACTORS, we believe that success is built on trust, quality, and collaboration. 
-                  We go beyond meeting expectations we aim to exceed them by delivering high quality, sustainable, and cost-effective solutions through professionalism, teamwork, and continuous improvement.
+                  At HIGHFLYER CONTRACTORS, we believe that success is built on
+                  trust, quality, and collaboration. We go beyond meeting
+                  expectations we aim to exceed them by delivering high quality,
+                  sustainable, and cost-effective solutions through
+                  professionalism, teamwork, and continuous improvement.
                 </p>
-                <div class="benefits-list" data-aos="fade-up" data-aos-delay="400">
+                <div
+                  class="benefits-list"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
                   <div class="benefit-row">
-                    <div 
-                      v-for="benefit in benefits.slice(0, 2)" 
+                    <div
+                      v-for="benefit in benefits.slice(0, 2)"
                       :key="benefit"
                       class="benefit-item"
                     >
@@ -31,8 +46,8 @@
                     </div>
                   </div>
                   <div class="benefit-row">
-                    <div 
-                      v-for="benefit in benefits.slice(2, 4)" 
+                    <div
+                      v-for="benefit in benefits.slice(2, 4)"
                       :key="benefit"
                       class="benefit-item"
                     >
@@ -43,8 +58,17 @@
                     </div>
                   </div>
                 </div>
-                <div class="action-group" data-aos="fade-up" data-aos-delay="450">
-                  <a href="#contact" class="btn btn-primary-action">Start Your Project</a>
+                <div
+                  class="action-group"
+                  data-aos="fade-up"
+                  data-aos-delay="450"
+                >
+                  <a
+                    href="#"
+                    @click="scrollToSection('contact', $event)"
+                    class="btn btn-primary-action"
+                    >GET IN TOUCH</a
+                  >
                   <!-- <a href="#services" class="btn btn-text-link">
                     <i class="bi bi-arrow-right-circle-fill"></i>
                     View Our Services
@@ -52,7 +76,6 @@
                 </div>
               </div>
             </div>
-        
           </div>
         </div>
       </div>
@@ -61,12 +84,32 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue'
+import { reactive } from "vue";
 
 const benefits = reactive([
-  'International Standards',
-  'Proven Track Record',
-  'Cost Efficiency',
-  'Sustainable Solutions'
-])
+  "International Standards",
+  "Proven Track Record",
+  "Cost Efficiency",
+  "Sustainable Solutions",
+]);
+
+const scrollToSection = (sectionId, event) => {
+  event.preventDefault();
+
+  // Get the target section
+  const targetSection = document.querySelector(`#${sectionId}`);
+
+  if (targetSection) {
+    // Calculate offset for header height
+    const headerHeight = document.querySelector("#header")?.offsetHeight || 0;
+    const elementPosition = targetSection.offsetTop - headerHeight;
+
+    window.scrollTo({
+      top: elementPosition,
+      behavior: "smooth",
+    });
+  } else {
+    console.warn(`Section with ID "${sectionId}" not found`);
+  }
+};
 </script>

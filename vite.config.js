@@ -3,10 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  server: {
-    port: 3000,
-    open: true
-  },
+  base: '/highflyer-contractor/', // must match your repo name
   build: {
     outDir: 'dist',
     assetsDir: 'assets'

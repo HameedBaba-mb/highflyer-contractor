@@ -17,10 +17,10 @@
             <div class="client-logo mb-3">
               <img
                 :src="client.logo"
-                class="img-fluid"
+                class="img-fluid text-center"
                 :alt="client.name"
                 loading="lazy"
-                style="max-height: 80px"
+                :style="{ width: client.imgWidth, height: client.imgHeight }"
               />
             </div>
             <h5 class="client-name">{{ client.name }}</h5>
@@ -34,31 +34,48 @@
 <script setup>
 import { reactive } from "vue";
 
+// Import images
+import fmhaprLogo from "../../assets/img/clients/fmhapr.png";
+import nemaLogo from "../../assets/img/clients/nema.jpg";
+import nsipLogo from "../../assets/img/clients/nsip.png";
+import ohcsfLogo from "../../assets/img/clients/ohcsf.jpg";
+import zsubebLogo from "../../assets/img/clients/zsubeb.jpg";
+
 const clients = reactive([
   {
     id: 1,
     name: "Federal Ministry of Humanitarian Affairs and Poverty Reduction",
-    logo: "/src/assets/img/clients/fmhapr.png",
+    logo: fmhaprLogo,
+    imgWidth: "200px",
+    imgHeight: "80px",
   },
   {
     id: 2,
     name: "National Emergency Management Agency (NEMA)",
-    logo: "/src/assets/img/clients/nema.png",
+    logo: nemaLogo,
+    imgWidth: "200px",
+    imgHeight: "80px",
   },
   {
     id: 3,
     name: "National Social Investment Programme Agency (NSIPA)",
-    logo: "/src/assets/img/clients/n-sip.jpeg",
+    logo: nsipLogo,
+       imgWidth: '200px',
+    imgHeight: '80px',
   },
   {
     id: 4,
     name: "Office of the Head of the Civil Service of the Federation (OHCSF)",
-    logo: "/src/assets/img/clients/ohcsf.jpeg",
+    logo: ohcsfLogo,
+       imgWidth: '200px',
+    imgHeight: '80px',
   },
   {
     id: 5,
     name: "Zamfara State Universal Basic Education Board (ZSUBEB)",
-    logo: "/src/assets/img/clients/zsubeb.jpg",
+    logo: zsubebLogo,
+    imgWidth: "200px",
+    imgHeight: "80px",
   },
 ]);
 </script>

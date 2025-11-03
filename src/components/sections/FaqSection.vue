@@ -1,5 +1,5 @@
 <template>
-  <section id="faq" class="faq section">
+  <section id="faq" class="faq section light-background">
     <div class="container section-title" data-aos="fade-up">
       <h2>F.A.Q</h2>
       <p>Frequently Asked Questions</p>

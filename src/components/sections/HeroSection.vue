@@ -2,44 +2,28 @@
   <section id="hero" class="hero section dark-background">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row align-items-center gy-5">
-        <div class="col-lg-7">
-          <div
-            class="hero-card shadow-sm"
-            data-aos="fade-right"
-            data-aos-delay="150"
-          >
-            <div class="eyebrow d-inline-flex align-items-center mb-3">
+        <div class="col-lg-6">
+          <div class="media-stack" data-aos="zoom-in" data-aos-delay="200">
+            <figure class="media primary shadow-sm">
+              <img
+                src="../../assets/img/logo.jpeg"
+                class="img-fluid"
+                alt="Hero visual"
+              />
+            </figure>
+
+            <div
+              class="floating-badge d-flex align-items-center shadow-sm"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
               <i class="bi bi-stars me-2"></i>
               <span>Building Excellence, Delivering Value</span>
-            </div>
-            <div class="content">
-              <h2 class="display-5 fw-bold mb-3">{{ heroData.title }}</h2>
-              <p class="lead mb-4">{{ heroData.description }}</p>
-              <div class="d-flex flex-wrap gap-3">
-                <a href="#about" class="btn btn-primary-ghost">
-                  <span>Explore Now</span>
-                  <i class="bi bi-arrow-right ms-2"></i>
-                </a>
-              </div>
-              <div
-                class="mini-stats d-flex flex-wrap gap-4 mt-4"
-                data-aos="zoom-in"
-                data-aos-delay="250"
-              >
-                <div
-                  v-for="stat in heroData.stats"
-                  :key="stat.text"
-                  class="stat d-flex align-items-center"
-                >
-                  <i :class="stat.icon + ' me-2'"></i>
-                  <span>{{ stat.text }}</span>
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-6">
           <div class="media-stack" data-aos="zoom-in" data-aos-delay="200">
             <figure class="media primary shadow-sm">
               <img
@@ -84,3 +68,15 @@ const heroData = reactive({
   ],
 });
 </script>
+
+<style scoped>
+.content {
+  background: url("../../assets/img/logo.jpeg") center center no-repeat;
+  background-size: contain; /* ensures full image is visible */
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>

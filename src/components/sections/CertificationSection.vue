@@ -1,5 +1,5 @@
 <template>
-  <section id="certificates" class="section py-5 bg-light">
+  <section id="certificates" class="section py-5">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="container section-title text-center mb-5" data-aos="fade-up">
         <h2 class="fw-bold">Company Certifications</h2>
@@ -55,6 +55,14 @@
 <script setup>
 import { reactive } from "vue";
 
+// Import certificate images
+import cacImg from "../../assets/img/certicates/cac.png";
+import firsImg from "../../assets/img/certicates/firs.png";
+import bppImg from "../../assets/img/certicates/BPP.png";
+import penconImg from "../../assets/img/certicates/pencon.jpg";
+import nsiteImg from "../../assets/img/certicates/nsite.png";
+import itImg from "../../assets/img/certicates/it.jpeg";
+
 const certificates = reactive([
   {
     id: 1,
@@ -62,7 +70,7 @@ const certificates = reactive([
     authority: "Corporate Affairs Commission (CAC)",
     description:
       "Officially recognizes HIGHFLYER CONTRACTORS LTD as a legally registered private company limited by shares under the Companies and Allied Matters Act (CAMA 2020). Establishes the company's corporate identity and right to operate in Nigeria.",
-    img: "/src/assets/img/certicates/cac.png",
+    img: cacImg,
     width: "80px",
   },
   {
@@ -71,7 +79,7 @@ const certificates = reactive([
     authority: "Federal Inland Revenue Service (FIRS)",
     description:
       "Confirms that the company is registered for tax purposes in Nigeria, allowing lawful tax remittance, eligibility for contracts, and compliance with federal regulations.",
-    img: "/src/assets/img/certicates/firs.png",
+    img: firsImg,
     width: "75px",
   },
   {
@@ -80,7 +88,7 @@ const certificates = reactive([
     authority: "Bureau of Public Procurement (BPP)",
     description:
       "Validates the company's registration as an approved contractor eligible to bid for federal government projects in compliance with the Public Procurement Act.",
-    img: "/src/assets/img/certicates/BPP.png",
+    img: bppImg,
     width: "80px",
   },
   {
@@ -89,7 +97,7 @@ const certificates = reactive([
     authority: "National Pension Commission (PENCOM)",
     description:
       "Verifies compliance with the Pension Reform Act by enrolling staff in a pension scheme and remitting contributions promptly. Mandatory for government contract participation.",
-    img: "/src/assets/img/certicates/pencon.jpg",
+    img: penconImg,
     width: "90px",
   },
   {
@@ -98,7 +106,7 @@ const certificates = reactive([
     authority: "National Social Insurance Trust Fund (NSITF)",
     description:
       "Confirms company participation in the Employees’ Compensation Scheme for workplace insurance, disability, or death coverage, ensuring staff welfare.",
-    img: "/src/assets/img/certicates/nsite.png",
+    img: nsiteImg,
     width: "80px",
   },
   {
@@ -107,7 +115,7 @@ const certificates = reactive([
     authority: "Industrial Training Fund (ITF)",
     description:
       "Indicates compliance with ITF regulations to support manpower training and workforce development, showcasing the company’s commitment to capacity building.",
-    img: "/src/assets/img/certicates/it.jpeg",
+    img: itImg,
     width: "75px",
   },
 ]);

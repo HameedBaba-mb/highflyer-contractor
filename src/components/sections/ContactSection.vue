@@ -90,17 +90,19 @@
 
 <script setup>
 import { reactive, ref } from 'vue'
+import emailjs from '@emailjs/browser'
+import { emailConfig } from '../../config/email.js'
 
 const contactInfo = reactive([
   {
     icon: 'bi bi-geo-alt',
     title: 'Address',
-    content: 'Suite C9, 2nd Floor, Rajab Plaza, Nnamdi Azikiwe Expressway, Off. Area 3 Junction, Garki, Abuja, FCT'
+    content: 'Rajab Plaza, Nnamdi Azikiwe Expressway, Off. Area 3 Junction, Garki, Abuja, FCT'
   },
   {
     icon: 'bi bi-telephone',
     title: 'Call Us',
-    content: '0701 458 8884, 0807 390 7055'
+    content: '0701 458 8884'
   },
   {
     icon: 'bi bi-envelope',
@@ -126,17 +128,47 @@ const submitForm = async () => {
   successMessage.value = ''
 
   try {
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000))
+    // EmailJS configuration from config file
+    const { serviceID, templateID, publicKey } = emailConfig
+
+    // Create email template parameters
+    const templateParams = {
+      from_name: form.name,
+      from_email: form.email,
+      subject: form.subject,
+      message: form.message,
+      to_email: 'contact@highflyer.ng'
+    }
+
+    // Try to send email using EmailJS
+    if (serviceID !== 'YOUR_SERVICE_ID' && templateID !== 'YOUR_TEMPLATE_ID' && publicKey !== 'YOUR_PUBLIC_KEY') {
+      await emailjs.send(serviceID, templateID, templateParams, publicKey)
+      successMessage.value = 'Your message has been sent successfully! We will get back to you soon.'
+    } else {
+      // Fallback to mailto link if EmailJS is not configured
+      const mailtoLink = `mailto:contact@highflyer.ng?subject=${encodeURIComponent(form.subject)}&body=${encodeURIComponent(
+        `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`
+      )}`
+      
+      window.open(mailtoLink, '_blank')
+      successMessage.value = 'Your default email client has been opened. Please send the message from there.'
+    }
     
-    // Reset form
+    // Reset form on success
     Object.keys(form).forEach(key => {
       form[key] = ''
     })
     
-    successMessage.value = 'Your message has been sent. Thank you!'
   } catch (error) {
-    errorMessage.value = 'There was an error sending your message. Please try again.'
+    console.error('Email sending error:', error)
+    
+    // Fallback to mailto link on error
+    const mailtoLink = `mailto:contact@highflyer.ng?subject=${encodeURIComponent(form.subject)}&body=${encodeURIComponent(
+      `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`
+    )}`
+    
+    window.open(mailtoLink, '_blank')
+    errorMessage.value = 'Email service unavailable. Your default email client has been opened as a fallback.'
   } finally {
     isLoading.value = false
   }

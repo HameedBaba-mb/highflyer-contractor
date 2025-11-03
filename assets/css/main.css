@@ -1116,6 +1116,8 @@ section,
   background: var(--surface-color);
   transform-origin: center;
   transition: 0.3s;
+  transform: translateY(-4px) !important;
+
 }
 
 .hero .media-stack .media img {
@@ -1124,9 +1126,9 @@ section,
   height: auto;
 }
 
-.hero .media-stack .media:hover {
+/* .hero .media-stack .media:hover {
   transform: translateY(-4px);
-}
+} */
 
 .hero .media-stack .primary {
   transform: rotate(-2deg);
@@ -1393,7 +1395,7 @@ section,
 }
 
 .about .intro-card .intro-body .lead {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: var(--muted-strong);
   line-height: 1.7;
   margin-bottom: 0.75rem;
@@ -1461,6 +1463,12 @@ section,
   border-radius: calc(var(--card-radius) + 2px);
 }
 
+.about .intro-card .metric-band-2 {
+  background: color-mix(in srgb, var(--accent-color), transparent 94%);
+  border: 1px solid var(--soft-border);
+  border-radius: calc(var(--card-radius) + 2px);
+}
+
 @media (max-width: 576px) {
   .about .intro-card .metric-band {
     gap: 12px;
@@ -1477,12 +1485,12 @@ section,
   font-family: var(--heading-font);
   font-weight: 800;
   color: var(--accent-color);
-  font-size: 1.75rem;
+  font-size: 1rem;
   line-height: 1;
 }
 
 .about .intro-card .metric-band .metric .label {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: var(--muted-text);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -1717,24 +1725,19 @@ section,
 
 @media (max-width: 991px) {
   .clients .client-logo {
-    width: 160px;
     height: 120px;
-  }
-
-  .clients .client-logo img {
-    max-height: 70px;
   }
 }
 
 @media (max-width: 767px) {
   .clients .client-logo {
-    width: 140px;
+    /* width: 140px; */
     height: 100px;
     padding: 15px;
   }
 
   .clients .client-logo img {
-    max-height: 60px;
+    /* max-height: 60px; */
   }
 
   .clients .clients-track {

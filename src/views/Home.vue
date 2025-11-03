@@ -3,16 +3,15 @@
     <HeroSection />
     <FeaturedServicesSection />
     <AboutSection />
-    <ClientsSection />
-    <StatsSection />
-    <SkillsSection />
+    <OurCoreValueSection />
     <ServicesSection />
     <FeaturesSection />
-    <PortfolioSection />
-    <TestimonialsSection />
-    <CallToActionSection />
+    <CommitmentSection />
+    <OurProjectsSection />
+    <CertificationSection />
     <TeamSection />
-    <!-- <PricingSection /> -->
+    <ClientsSection />
+    <CallToActionSection />
     <FaqSection />
     <ContactSection />
   </main>
@@ -21,18 +20,17 @@
 <script setup>
 import { onMounted } from 'vue'
 import HeroSection from '../components/sections/HeroSection.vue'
-import FeaturedServicesSection from '../components/sections/FeaturedServicesSection.vue'
 import AboutSection from '../components/sections/AboutSection.vue'
-import ClientsSection from '../components/sections/ClientsSection.vue'
-import StatsSection from '../components/sections/StatsSection.vue'
-import SkillsSection from '../components/sections/SkillsSection.vue'
+import OurCoreValueSection from '../components/sections/OurCoreValueSection.vue'
+import FeaturedServicesSection from '../components/sections/FeaturedServicesSection.vue'
 import ServicesSection from '../components/sections/ServicesSection.vue'
 import FeaturesSection from '../components/sections/FeaturesSection.vue'
-import PortfolioSection from '../components/sections/PortfolioSection.vue'
-import TestimonialsSection from '../components/sections/CertificationSection.vue'
-import CallToActionSection from '../components/sections/CallToActionSection.vue'
+import CommitmentSection from '../components/sections/CommitmentSection.vue'
+import OurProjectsSection from '../components/sections/OurProjectsSection.vue'
+import CertificationSection from '../components/sections/CertificationSection.vue'
 import TeamSection from '../components/sections/TeamSection.vue'
-import PricingSection from '../components/sections/PricingSection.vue'
+import ClientsSection from '../components/sections/ClientsSection.vue'
+import CallToActionSection from '../components/sections/CallToActionSection.vue'
 import FaqSection from '../components/sections/FaqSection.vue'
 import ContactSection from '../components/sections/ContactSection.vue'
 
