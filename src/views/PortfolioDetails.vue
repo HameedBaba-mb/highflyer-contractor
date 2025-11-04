@@ -4,7 +4,7 @@
       <div class="container">
         <div class="title-wrapper">
           <h1>Portfolio Details</h1>
-          <p>Detailed view of our construction and engineering projects</p>
+          <p>Detailed view of our business consulting and digital transformation projects</p>
         </div>
       </div>
     </div>
@@ -22,7 +22,7 @@
               <ul>
                 <li><strong>Client:</strong> Sample Client</li>
                 <li><strong>Duration:</strong> 6 months</li>
-                <li><strong>Category:</strong> Construction</li>
+                <li><strong>Category:</strong> Business Consulting</li>
                 <li><strong>Status:</strong> Completed</li>
               </ul>
             </div>

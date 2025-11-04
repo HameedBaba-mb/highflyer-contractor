@@ -28,7 +28,7 @@ The contact form is configured to send emails to `contact@highflyer.ng` using Em
    {{message}}
    
    ---
-   This message was sent from the HIGHFLYER CONTRACTORS website contact form.
+   This message was sent from the HIGHFLYER SOLUTIONS website contact form.
    ```
 4. Set the "To Email" to: `contact@highflyer.ng`
 5. Note down your **Template ID**

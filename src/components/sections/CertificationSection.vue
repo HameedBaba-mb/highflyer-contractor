@@ -69,7 +69,7 @@ const certificates = reactive([
     name: "Certificate of Incorporation",
     authority: "Corporate Affairs Commission (CAC)",
     description:
-      "Officially recognizes HIGHFLYER CONTRACTORS LTD as a legally registered private company limited by shares under the Companies and Allied Matters Act (CAMA 2020). Establishes the company's corporate identity and right to operate in Nigeria.",
+      "Officially recognizes HIGHFLYER SOLUTIONS LTD as a legally registered private company limited by shares under the Companies and Allied Matters Act (CAMA 2020). Establishes the company's corporate identity and right to operate in Nigeria.",
     img: cacImg,
     width: "80px",
   },
@@ -84,10 +84,10 @@ const certificates = reactive([
   },
   {
     id: 3,
-    name: "Certificate of Registration on the National Database of Contractors",
+    name: "Certificate of Registration on the National Database of Service Providers",
     authority: "Bureau of Public Procurement (BPP)",
     description:
-      "Validates the company's registration as an approved contractor eligible to bid for federal government projects in compliance with the Public Procurement Act.",
+      "Validates the company's registration as an approved service provider eligible to bid for federal government projects in compliance with the Public Procurement Act.",
     img: bppImg,
     width: "80px",
   },

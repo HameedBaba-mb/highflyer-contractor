@@ -2,7 +2,7 @@
   <section id="services" class="services section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Our Core Services</h2>
-      <p>Comprehensive Solutions for Your Construction and Engineering Needs</p>
+      <p>Comprehensive Solutions for Your Business and Digital Transformation Needs</p>
     </div>
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row gy-5">
@@ -40,18 +40,18 @@ import { reactive } from 'vue'
 const services = reactive([
   {
     id: 1,
-    icon: 'bi bi-building',
-    title: 'General Contract & Merchandise',
-    description: 'We provide comprehensive general contracting services, including procurement, supply, and logistics management for various industries. Our merchandise division ensures timely delivery of high-quality materials and equipment at competitive prices.',
-    features: ['Procurement Services', 'Supply Chain Management', 'Logistics Coordination', 'Quality Materials Supply'],
+    icon: 'bi bi-briefcase',
+    title: 'Business Consulting',
+    description: 'We provide comprehensive business consulting services, including strategy development, process optimization, and organizational transformation for various industries. Our consulting division ensures effective solutions that drive growth and competitive advantage.',
+    features: ['Strategy Development', 'Process Optimization', 'Organizational Design', 'Performance Improvement'],
     featured: false
   },
   {
     id: 2,
-    icon: 'bi bi-tools',
-    title: 'Engineering & Construction',
-    description: 'Our engineering and construction arm offers full-spectrum services covering design, planning, civil works, structural engineering, and building construction. Our commitment to excellence and adherence to safety and environmental standards ensure precision and quality.',
-    features: ['Design & Planning', 'Civil Works', 'Structural Engineering', 'Building Construction'],
+    icon: 'bi bi-laptop',
+    title: 'Digital Services',
+    description: 'Our digital services arm offers full-spectrum solutions covering digital transformation, technology implementation, software development, and digital marketing. Our commitment to innovation and cutting-edge technology ensures modern and effective digital solutions.',
+    features: ['Digital Transformation', 'Software Development', 'Technology Implementation', 'Digital Marketing'],
     featured: false
   },
   {
@@ -65,9 +65,25 @@ const services = reactive([
   {
     id: 4,
     icon: 'bi bi-lightbulb',
+    title: 'Strategic Advisory',
+    description: 'Our strategic advisory services provide expert advice and guidance across business strategy, market analysis, and organizational development. Our expert advisors offer practical solutions and strategic insights that help clients optimize performance, reduce risks, and achieve sustainable business goals.',
+    features: ['Strategic Planning', 'Market Analysis', 'Risk Assessment', 'Business Development'],
+    featured: false
+  },
+  {
+    id: 5,
+    icon: 'bi bi-gear',
+    title: 'General Services',
+    description: 'We offer experienced, dynamic, and reliable teams specializing in general services for residential, commercial, and industrial sectors. With a strong commitment to excellence, innovation, and customer satisfaction, we deliver comprehensive, high-quality solutions tailored to meet each client\'s unique needs.',
+    features: ['Residential Services', 'Commercial Solutions', 'Industrial Support', 'Custom Solutions'],
+    featured: false
+  },
+  {
+    id: 6,
+    icon: 'bi bi-chat-dots',
     title: 'Consultancy Services',
-    description: 'Our consultancy services provide expert advice and strategic guidance across engineering, infrastructure, and management projects. Our expert consultants offer practical solutions and strategic insights that help clients optimize performance, reduce risks, and achieve sustainable project goals.',
-    features: ['Strategic Planning', 'Technical Consulting', 'Risk Assessment', 'Performance Optimization'],
+    description: 'Our consultancy services provide expert advice and strategic guidance across general services and procurement management projects. Our expert consultants offer practical solutions that help clients optimize performance and achieve sustainable project goals.',
+    features: ['Expert Advisory', 'Procurement Management', 'Performance Optimization', 'Project Guidance'],
     featured: false
   }
 ])

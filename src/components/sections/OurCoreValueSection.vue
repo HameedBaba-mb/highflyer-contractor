@@ -4,7 +4,7 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Our Core Values</h2>
         <p>
-          The guiding principles that define the spirit of highflyer Contractors
+          The guiding principles that define the spirit of HIGHFLYER SOLUTIONS
         </p>
       </div>
 
@@ -65,10 +65,10 @@ const coreValues = [
       "We build long-term relationships based on trust and satisfaction.",
   },
   {
-    icon: "bi bi-tree",
-    title: "Safety & Sustainability",
+    icon: "bi bi-globe",
+    title: "Sustainability & Growth",
     description:
-      "We prioritize the well-being of our people, clients, and environment.",
+      "We prioritize sustainable business practices and long-term growth for our clients.",
   },
 ];
 </script>

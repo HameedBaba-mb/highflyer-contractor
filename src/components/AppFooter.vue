@@ -5,11 +5,11 @@
         <div class="col-lg-4">
           <div class="footer-brand">
             <router-link to="/" class="logo d-flex align-items-center mb-3">
-              <span class="sitename">HIGHFLYER CONTRACTORS</span>
+              <span class="sitename">HIGHFLYER SOLUTIONS</span>
             </router-link>
             <p class="tagline">
-              Building Excellence, Delivering Value. Your trusted partner in
-              construction, engineering, and project management.
+              Innovation, Excellence, Results. Your trusted partner in
+              business consulting, digital services, and strategic solutions.
             </p>
           </div>
         </div>
@@ -56,22 +56,22 @@
                 <ul class="list-unstyled">
                   <li>
                     <a href="#" @click="scrollToSection('services', $event)"
-                      >General Contract</a
+                      >Business Consulting</a
                     >
                   </li>
                   <li>
                     <a href="#" @click="scrollToSection('services', $event)"
-                      >Engineering & Construction</a
+                      >Digital Services</a
                     >
                   </li>
                   <li>
                     <a href="#" @click="scrollToSection('services', $event)"
-                      >Project Management</a
+                      >General Services</a
                     >
                   </li>
                   <li>
                     <a href="#" @click="scrollToSection('services', $event)"
-                      >Consultancy</a
+                      >Consultancy Services</a
                     >
                   </li>
                 </ul>
@@ -110,7 +110,7 @@
           <div class="col-12">
             <div class="footer-bottom-content">
               <p class="mb-0">
-                © <span class="sitename">HIGHFLYER CONTRACTORS LTD</span>. All
+                © <span class="sitename">HIGHFLYER SOLUTIONS LTD</span>. All
                 rights reserved. RC: 1970142
               </p>
             </div>

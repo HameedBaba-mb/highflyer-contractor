@@ -18,8 +18,8 @@
             <p>
               Our team comprises a corporate finance practitioner, an
               educational management practitioner, a legal practitioner, a
-              quantity surveying practitioner, a civil and environmental
-              engineering practitioner, a resource assurance and fraud
+              quantity surveying practitioner, a business and environmental
+              business strategy practitioner, a resource assurance and fraud
               management practitioner, a supply chain management practitioner, a
               risk management specialist, a project management practitioner, a
               relationship management specialist, a business psychology

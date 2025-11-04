@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/highflyer-contractor/', // must match your repo name
+  base: process.env.NODE_ENV === 'production' ? '/highflyer-contractor/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets'

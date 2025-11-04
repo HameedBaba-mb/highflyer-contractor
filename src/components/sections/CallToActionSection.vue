@@ -22,7 +22,7 @@
                   <span class="accent-text">Reality</span>
                 </h2>
                 <p data-aos="fade-up" data-aos-delay="350">
-                  At HIGHFLYER CONTRACTORS, we believe that success is built on
+                  At HIGHFLYER SOLUTIONS, we believe that success is built on
                   trust, quality, and collaboration. We go beyond meeting
                   expectations we aim to exceed them by delivering high quality,
                   sustainable, and cost-effective solutions through

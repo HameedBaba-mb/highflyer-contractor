@@ -18,7 +18,7 @@
               data-aos-delay="300"
             >
               <i class="bi bi-stars me-2"></i>
-              <span>Building Excellence, Delivering Value</span>
+              <span>Innovation, Excellence, Results</span>
             </div>
           </div>
         </div>
@@ -27,14 +27,14 @@
           <div class="media-stack" data-aos="zoom-in" data-aos-delay="200">
             <figure class="media primary shadow-sm">
               <img
-                src="../../assets/img/illustration/construction-1.jpg"
+                src="../../assets/img/about/about-portrait-3.jpg"
                 class="img-fluid"
                 alt="Hero visual"
               />
             </figure>
             <figure class="media secondary shadow-sm">
               <img
-                src="../../assets/img/illustration/construction-2.jpg"
+                src="../../assets/img/services/services-6.webp"
                 class="img-fluid"
                 alt="Supporting visual"
               />
@@ -45,7 +45,7 @@
               data-aos-delay="300"
             >
               <i class="bi bi-award me-2"></i>
-              <span>Delivering Value with Excellence</span>
+              <span>Delivering Innovation with Excellence</span>
             </div>
           </div>
         </div>
@@ -58,9 +58,9 @@
 import { reactive } from "vue";
 
 const heroData = reactive({
-  title: "Building Excellence, Delivering Value",
+  title: "Innovation, Excellence, Results",
   description:
-    "HIGHFLYER CONTRACTORS is a reputable and dynamic Nigeria incorporated limited company dedicated to providing comprehensive solutions in General Contract and Merchandise, Engineering and Construction Services, Project Management, and Consultancy Services.",
+    "HIGHFLYER SOLUTIONS is a reputable and dynamic Nigeria incorporated limited company dedicated to providing comprehensive solutions in Business Consulting, Digital Services, Project Management, and Strategic Advisory Services.",
   stats: [
     { icon: "bi bi-lightning-charge", text: "Excellence & Innovation" },
     { icon: "bi bi-shield-check", text: "Quality Assured" },

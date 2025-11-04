@@ -4,7 +4,7 @@
       <div class="container">
         <div class="title-wrapper">
           <h1>Service Details</h1>
-          <p>Comprehensive information about our construction and engineering services</p>
+          <p>Comprehensive information about our business consulting and digital services</p>
         </div>
       </div>
     </div>
