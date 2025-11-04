@@ -3,7 +3,8 @@
     <div class="container section-title text-center mb-5" data-aos="fade-up">
       <h2 class="fw-bold">Our Projects</h2>
       <p class="text-muted">
-        Showcasing our successful projects across business consulting, digital transformation, strategic planning, and organizational development.
+        Showcasing our successful projects across consultancy services, digital
+        transformation, strategic planning, and organizational development.
       </p>
     </div>
 
@@ -75,9 +76,9 @@ const activeFilter = ref("*");
 
 const filters = reactive([
   { value: "*", label: "All" },
-  { value: ".filter-consulting", label: "Business Consulting" },
+  { value: ".filter-consulting", label: "Consultancy Services" },
   { value: ".filter-digital", label: "Digital Services" },
-  { value: ".filter-strategy", label: "Strategic Planning" },
+  { value: ".filter-procurement", label: "Procurement" },
   { value: ".filter-transformation", label: "Transformation" },
 ]);
 
@@ -87,7 +88,7 @@ const portfolio = reactive([
     title: "Digital Transformation Strategy for Educational Institution",
     type: "Digital Services",
     category: "filter-digital",
-    location: "Talata, Zamfara State",
+    location: "Zamfara State",
     duration: "2024 – 2025",
     description:
       "A comprehensive digital transformation project involving system modernization, process automation, and staff training to improve educational and administrative efficiency.",
@@ -95,7 +96,7 @@ const portfolio = reactive([
   {
     id: 2,
     title: "Organizational Restructuring and Process Optimization",
-    type: "Business Consulting",
+    type: "Consultancy Services",
     category: "filter-consulting",
     location: "Abuja FCT – Abuja",
     duration: "2025",
@@ -114,13 +115,13 @@ const portfolio = reactive([
   },
   {
     id: 4,
-    title: "Strategic Business Planning and Market Analysis",
-    type: "Strategic Planning",
-    category: "filter-strategy",
+    title: "Procurement of Grinding Machine",
+    type: "Procurement",
+    category: "filter-procurement",
     location: "Delta State",
     duration: "2024",
     description:
-      "Comprehensive strategic planning project including market analysis, competitive assessment, and business development roadmap.",
+      "Procurement of a high-quality grinding machine to support industrial and production operations.",
   },
   {
     id: 5,
@@ -134,19 +135,21 @@ const portfolio = reactive([
   },
   {
     id: 6,
-    title: "Digital Marketing and Brand Strategy Development",
-    type: "Digital Services",
-    category: "filter-digital",
+    title: "Procurement and Installation of Security Equipment",
+    type: "Procurement",
+    category: "filter-procurement",
     location: "Abuja FCT – Abuja",
     duration: "2025",
     description:
-      "Development and implementation of comprehensive digital marketing strategy and brand positioning framework.",
+      "Procurement and installation of modern security equipment to ensure safety and surveillance.",
   },
 ]);
 
 const filteredPortfolio = computed(() => {
   if (activeFilter.value === "*") return portfolio;
-  return portfolio.filter((item) => item.category === activeFilter.value.replace(".", ""));
+  return portfolio.filter(
+    (item) => item.category === activeFilter.value.replace(".", "")
+  );
 });
 
 const setActiveFilter = (filter) => {

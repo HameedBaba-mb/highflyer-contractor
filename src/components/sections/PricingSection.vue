@@ -85,7 +85,7 @@ const pricingPlans = reactive([
     id: 3,
     name: 'Full Service',
     type: 'enterprise',
-    description: 'Comprehensive business consulting and digital transformation solutions.',
+    description: 'Comprehensive consultancy services and digital transformation solutions.',
     price: 'Quote',
     featured: false,
     buttonText: 'Contact Us',

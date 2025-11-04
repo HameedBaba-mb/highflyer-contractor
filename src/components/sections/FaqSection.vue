@@ -44,7 +44,7 @@ const faqs = reactive([
   {
     id: 1,
     question: 'What services does HIGHFLYER SOLUTIONS provide?',
-    answer: 'We provide comprehensive solutions in Business Consulting, Digital Services, Project Management, and Strategic Advisory Services. Our multidisciplinary team ensures seamless execution from conception to completion.',
+    answer: 'We provide comprehensive solutions in Digital Services, Project Management, Strategic Advisory Services, and Consultancy Services. Our multidisciplinary team ensures seamless execution from conception to completion.',
     isOpen: true
   },
   {

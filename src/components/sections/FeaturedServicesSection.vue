@@ -26,16 +26,9 @@
 import { reactive } from "vue";
 
 const services = reactive([
+
   {
     id: 1,
-    icon: "bi bi-briefcase",
-    title: "Business Consulting",
-    description:
-      "We provide comprehensive business consulting services, including strategy development, process optimization, and organizational transformation for various industries. Our consulting division ensures effective solutions that drive growth and competitive advantage.",
-    link: "#services",
-  },
-  {
-    id: 2,
     icon: "bi bi-laptop",
     title: "Digital Services",
     description:
@@ -43,7 +36,7 @@ const services = reactive([
     link: "#services",
   },
   {
-    id: 3,
+    id: 2,
     icon: "bi bi-diagram-3",
     title: "Project Management",
     description:
@@ -51,7 +44,7 @@ const services = reactive([
     link: "#services",
   },
   {
-    id: 4,
+    id: 3,
     icon: "bi bi-lightbulb",
     title: "Strategic Advisory",
     description:
@@ -59,7 +52,7 @@ const services = reactive([
     link: "#services",
   },
   {
-    id: 5,
+    id: 4,
     icon: "bi bi-gear",
     title: "General Services",
     description:
@@ -67,7 +60,7 @@ const services = reactive([
     link: "#services",
   },
   {
-    id: 6,
+    id: 5,
     icon: "bi bi-chat-dots",
     title: "Consultancy Services",
     description:

@@ -56,12 +56,12 @@
 import { reactive } from "vue";
 
 // Import certificate images
-import cacImg from "../../assets/img/certicates/cac.png";
-import firsImg from "../../assets/img/certicates/firs.png";
-import bppImg from "../../assets/img/certicates/BPP.png";
-import penconImg from "../../assets/img/certicates/pencon.jpg";
-import nsiteImg from "../../assets/img/certicates/nsite.png";
-import itImg from "../../assets/img/certicates/it.jpeg";
+import cacImg from "../../assets/img/certicates/cac.webp";
+import firsImg from "../../assets/img/certicates/firs.webp";
+import bppImg from "../../assets/img/certicates/BPP.webp";
+import penconImg from "../../assets/img/certicates/pencon.webp";
+import nsiteImg from "../../assets/img/certicates/nsite.webp";
+import itImg from "../../assets/img/certicates/it.webp";
 
 const certificates = reactive([
   {

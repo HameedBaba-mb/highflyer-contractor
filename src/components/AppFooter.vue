@@ -9,7 +9,7 @@
             </router-link>
             <p class="tagline">
               Innovation, Excellence, Results. Your trusted partner in
-              business consulting, digital services, and strategic solutions.
+              digital services, strategic solutions, and consultancy services.
             </p>
           </div>
         </div>
@@ -54,11 +54,7 @@
               <div class="col-6 col-md-4">
                 <h5>Services</h5>
                 <ul class="list-unstyled">
-                  <li>
-                    <a href="#" @click="scrollToSection('services', $event)"
-                      >Business Consulting</a
-                    >
-                  </li>
+
                   <li>
                     <a href="#" @click="scrollToSection('services', $event)"
                       >Digital Services</a

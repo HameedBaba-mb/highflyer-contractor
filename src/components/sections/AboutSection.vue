@@ -73,7 +73,7 @@ import { reactive } from "vue";
 const aboutData = reactive({
   title: "Delivering Comprehensive Solutions Across Multiple Sectors",
   leadText:
-    '<strong style="color: var(--accent-color)">HIGHFLYER SOLUTIONS</strong> is a reputable and dynamic Nigerian incorporated limited company dedicated to providing comprehensive solutions in Business Consulting, Digital Services, Project Management, and Strategic Advisory Services.',
+    '<strong style="color: var(--accent-color)">HIGHFLYER SOLUTIONS</strong> is a reputable and dynamic Nigerian incorporated limited company dedicated to providing comprehensive solutions in Digital Services, Project Management, Strategic Advisory Services, and Consultancy Services.',
   description:
     'Founded on a commitment to excellence, innovation, and integrity, <strong style="color: var(--accent-color)">HIGHFLYER SOLUTIONS</strong> has grown to become a trusted partner across multiple sectors. We deliver solutions that meet international standards while ensuring cost efficiency, sustainability, and client satisfaction.',
   additional:

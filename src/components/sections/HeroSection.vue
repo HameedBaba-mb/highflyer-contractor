@@ -6,7 +6,7 @@
           <div class="media-stack" data-aos="zoom-in" data-aos-delay="200">
             <figure class="media primary shadow-sm">
               <img
-                src="../../assets/img/logo.jpeg"
+                src="../../assets/img/logo.webp"
                 class="img-fluid"
                 alt="Hero visual"
               />
@@ -27,14 +27,14 @@
           <div class="media-stack" data-aos="zoom-in" data-aos-delay="200">
             <figure class="media primary shadow-sm">
               <img
-                src="../../assets/img/about/about-portrait-3.jpg"
+                src="../../assets/img/bg/about-portrait-3.webp"
                 class="img-fluid"
                 alt="Hero visual"
               />
             </figure>
             <figure class="media secondary shadow-sm">
               <img
-                src="../../assets/img/services/services-6.webp"
+                src="../../assets/img/bg/services-6.webp"
                 class="img-fluid"
                 alt="Supporting visual"
               />
@@ -60,7 +60,7 @@ import { reactive } from "vue";
 const heroData = reactive({
   title: "Innovation, Excellence, Results",
   description:
-    "HIGHFLYER SOLUTIONS is a reputable and dynamic Nigeria incorporated limited company dedicated to providing comprehensive solutions in Business Consulting, Digital Services, Project Management, and Strategic Advisory Services.",
+    "HIGHFLYER SOLUTIONS is a reputable and dynamic Nigeria incorporated limited company dedicated to providing comprehensive solutions in Digital Services, Project Management, Strategic Advisory Services, and Consultancy Services.",
   stats: [
     { icon: "bi bi-lightning-charge", text: "Excellence & Innovation" },
     { icon: "bi bi-shield-check", text: "Quality Assured" },
