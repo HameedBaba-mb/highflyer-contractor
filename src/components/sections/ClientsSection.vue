@@ -35,11 +35,11 @@
 import { reactive } from "vue";
 
 // Import images
-import fmhaprLogo from "../../assets/img/clients/fmhapr.png";
-import nemaLogo from "../../assets/img/clients/nema.jpg";
-import nsipLogo from "../../assets/img/clients/nsip.png";
-import ohcsfLogo from "../../assets/img/clients/ohcsf.jpg";
-import zsubebLogo from "../../assets/img/clients/zsubeb.jpg";
+import fmhaprLogo from "../../assets/img/clients/fmhapr.webp";
+import nemaLogo from "../../assets/img/clients/nema.webp";
+import nsipLogo from "../../assets/img/clients/nsip.webp";
+import ohcsfLogo from "../../assets/img/clients/ohcsf.webp";
+import zsubebLogo from "../../assets/img/clients/zsubeb.webp";
 
 const clients = reactive([
   {
@@ -60,15 +60,15 @@ const clients = reactive([
     id: 3,
     name: "National Social Investment Programme Agency (NSIPA)",
     logo: nsipLogo,
-       imgWidth: '200px',
-    imgHeight: '80px',
+    imgWidth: "200px",
+    imgHeight: "80px",
   },
   {
     id: 4,
     name: "Office of the Head of the Civil Service of the Federation (OHCSF)",
     logo: ohcsfLogo,
-       imgWidth: '200px',
-    imgHeight: '80px',
+    imgWidth: "200px",
+    imgHeight: "80px",
   },
   {
     id: 5,

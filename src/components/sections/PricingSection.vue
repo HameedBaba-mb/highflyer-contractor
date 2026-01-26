@@ -85,14 +85,14 @@ const pricingPlans = reactive([
     id: 3,
     name: 'Full Service',
     type: 'enterprise',
-    description: 'Comprehensive engineering and construction solutions.',
+    description: 'Comprehensive consultancy services and digital transformation solutions.',
     price: 'Quote',
     featured: false,
     buttonText: 'Contact Us',
     features: [
       'Design & Planning',
-      'Engineering & Construction',
-      'Procurement & Supply',
+      'Digital Services & Strategy',
+      'Strategic Planning & Analysis',
       'Project Management',
       'Quality Control',
       'Post-Project Support'

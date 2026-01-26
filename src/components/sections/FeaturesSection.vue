@@ -2,7 +2,7 @@
   <section id="features" class="features section light-background">
     <div class="container section-title" data-aos="fade-up">
   <h2>Why Choose Us</h2>
-  <p>Discover why HIGHFLYER CONTRACTORS LTD stands out as your trusted partner for construction and engineering excellence.</p>
+  <p>Discover why HIGHFLYER CONTRACTORS LTD stands out as your trusted partner for consultancy services and digital transformation excellence.</p>
 </div>
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -10,11 +10,11 @@
         <div class="col-lg-5">
           <article class="intro-panel" data-aos="fade-right" data-aos-delay="200">
             <figure class="preview-visual mb-4">
-              <img src="../../assets/img/features/features.jpg" alt="App preview" class="img-fluid rounded-4 shadow-sm">
+              <img src="../../assets/img/bg/features.webp" alt="App preview" class="img-fluid rounded-4 shadow-sm">
             </figure>
             <div class="intro-content">
               <h3 class="intro-title">Built for Excellence</h3>
-              <p class="intro-text">Our dedication to excellence, innovation, and integrity has earned us a strong reputation across diverse sectors in Nigeria.</p>
+              <p class="intro-text">Our dedication to excellence, innovation, and integrity has earned us a strong reputation across diverse business sectors in Nigeria.</p>
             </div>
           </article>
         </div>
@@ -94,9 +94,9 @@ const features2 = reactive([
 
 const features = reactive([
   {
-    icon: 'bi bi-truck',
-    title: 'Strong Procurement & Logistics',
-    description: 'Robust systems ensuring smooth and timely project delivery.',
+    icon: 'bi bi-graph-up',
+    title: 'Strategic Business Planning',
+    description: 'Comprehensive planning systems ensuring successful business outcomes.',
     badgeClass: 'badge-blue'
   },
   {
@@ -108,7 +108,7 @@ const features = reactive([
   {
     icon: 'bi bi-building-fill',
     title: 'Diverse Industry Experience',
-    description: 'Proven expertise across various industries and project scales.',
+    description: 'Proven expertise across various business sectors and project scales.',
     badgeClass: 'badge-purple'
   },
   {
@@ -125,8 +125,8 @@ const features = reactive([
   },
   {
     icon: 'bi bi-lightbulb-fill',
-    title: 'Innovative & Sustainable Solutions',
-    description: 'Smart, safe, and ethical approaches for lasting value.',
+    title: 'Innovative & Digital Solutions',
+    description: 'Smart, modern, and ethical approaches for lasting business value.',
     badgeClass: 'badge-pink'
   },
   // {

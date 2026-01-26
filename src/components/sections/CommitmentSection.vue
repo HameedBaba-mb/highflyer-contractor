@@ -8,7 +8,7 @@
           At <strong>HIGHFLYER CONTRACTORS LTD</strong>, we believe that success
           is built on <strong>trust, quality, and collaboration</strong>. We go
           beyond meeting expectations — we aim to exceed them by delivering
-          projects that inspire confidence and create lasting value for our
+          solutions that inspire confidence and create lasting value for our
           clients.
         </p>
       </div>
@@ -64,10 +64,10 @@ const commitments = [
       'We build long-term relationships based on trust and satisfaction.'
   },
   {
-    icon: 'bi bi-heart-pulse',
-    title: 'Safety & Sustainability',
+    icon: 'bi bi-globe',
+    title: 'Sustainability & Growth',
     description:
-      'We prioritize the well-being of our people, clients, and environment.'
+      'We prioritize sustainable business practices and long-term growth for our clients.'
   }
 ]
 </script>

@@ -8,8 +8,8 @@
               <span class="sitename">HIGHFLYER CONTRACTORS</span>
             </router-link>
             <p class="tagline">
-              Building Excellence, Delivering Value. Your trusted partner in
-              construction, engineering, and project management.
+              Innovation, Excellence, Results. Your trusted partner in
+              digital services, strategic solutions, and consultancy services.
             </p>
           </div>
         </div>
@@ -54,24 +54,20 @@
               <div class="col-6 col-md-4">
                 <h5>Services</h5>
                 <ul class="list-unstyled">
+
                   <li>
                     <a href="#" @click="scrollToSection('services', $event)"
-                      >General Contract</a
+                      >Digital Services</a
                     >
                   </li>
                   <li>
                     <a href="#" @click="scrollToSection('services', $event)"
-                      >Engineering & Construction</a
+                      >General Services</a
                     >
                   </li>
                   <li>
                     <a href="#" @click="scrollToSection('services', $event)"
-                      >Project Management</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" @click="scrollToSection('services', $event)"
-                      >Consultancy</a
+                      >Consultancy Services</a
                     >
                   </li>
                 </ul>

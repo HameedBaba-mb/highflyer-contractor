@@ -56,12 +56,12 @@
 import { reactive } from "vue";
 
 // Import certificate images
-import cacImg from "../../assets/img/certicates/cac.png";
-import firsImg from "../../assets/img/certicates/firs.png";
-import bppImg from "../../assets/img/certicates/BPP.png";
-import penconImg from "../../assets/img/certicates/pencon.jpg";
-import nsiteImg from "../../assets/img/certicates/nsite.png";
-import itImg from "../../assets/img/certicates/it.jpeg";
+import cacImg from "../../assets/img/certicates/cac.webp";
+import firsImg from "../../assets/img/certicates/firs.webp";
+import bppImg from "../../assets/img/certicates/BPP.webp";
+import penconImg from "../../assets/img/certicates/pencon.webp";
+import nsiteImg from "../../assets/img/certicates/nsite.webp";
+import itImg from "../../assets/img/certicates/it.webp";
 
 const certificates = reactive([
   {
@@ -84,10 +84,10 @@ const certificates = reactive([
   },
   {
     id: 3,
-    name: "Certificate of Registration on the National Database of Contractors",
+    name: "Certificate of Registration on the National Database of Service Providers",
     authority: "Bureau of Public Procurement (BPP)",
     description:
-      "Validates the company's registration as an approved contractor eligible to bid for federal government projects in compliance with the Public Procurement Act.",
+      "Validates the company's registration as an approved service provider eligible to bid for federal government projects in compliance with the Public Procurement Act.",
     img: bppImg,
     width: "80px",
   },

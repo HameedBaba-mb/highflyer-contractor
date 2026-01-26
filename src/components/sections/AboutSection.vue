@@ -73,15 +73,15 @@ import { reactive } from "vue";
 const aboutData = reactive({
   title: "Delivering Comprehensive Solutions Across Multiple Sectors",
   leadText:
-    '<strong style="color: var(--accent-color)">HIGHFLYER CONTRACTORS</strong> is a reputable and dynamic Nigerian incorporated limited company dedicated to providing comprehensive solutions in General Contract and Merchandise, Engineering and Construction Services, Project Management, and Consultancy Services.',
+    '<strong style="color: var(--accent-color)">HIGHFLYER CONTRACTORS</strong> is a reputable and dynamic Nigerian incorporated limited company dedicated to providing comprehensive solutions in Digital Services, Project Management, Strategic Advisory Services, and Consultancy Services.',
   description:
-    'Founded on a commitment to excellence, innovation, and integrity, <strong style="color: var(--accent-color)">HIGHFLYER CONTRACTORS</strong> has grown to become a trusted partner across multiple sectors. We deliver projects that meet international standards while ensuring cost efficiency, sustainability, and client satisfaction.',
+    'Founded on a commitment to excellence, innovation, and integrity, <strong style="color: var(--accent-color)">HIGHFLYER CONTRACTORS</strong> has grown to become a trusted partner across multiple sectors. We deliver solutions that meet international standards while ensuring cost efficiency, sustainability, and client satisfaction.',
   additional:
-    "We are dedicated to organizations or individuals seeking professional services related to our services. We work closely with our clients to accurately interpret their dreams and visions in drawings and bring them to desired reality through management solutions to meet their needs. We communicate with our clients throughout the contract process to keep them informed of progress to ensure that our project keeps on schedule and within budget",
+    "We are dedicated to organizations or individuals seeking professional services related to our expertise. We work closely with our clients to accurately interpret their business goals and visions, bringing them to desired reality through strategic management solutions to meet their needs. We communicate with our clients throughout the engagement process to keep them informed of progress to ensure that our projects keep on schedule and within budget",
   additional2:
-    'Our multidisciplinary team of professionals brings together expertise in engineering, construction, procurement, and management, ensuring seamless execution of projects from conception to completion. Whether handling small-scale developments or large infrastructural works, <strong style="color: var(--accent-color)">HIGHFLYER CONTRACTORS</strong> consistently delivers outstanding results that stand the test of time.',
+    'Our multidisciplinary team of professionals brings together expertise in business strategy, digital transformation, process optimization, and management, ensuring seamless execution of projects from conception to completion. Whether handling small-scale business improvements or large organizational transformations, <strong style="color: var(--accent-color)">HIGHFLYER CONTRACTORS</strong> consistently delivers outstanding results that stand the test of time.',
   vision:
-    'To be a leading provider of integrated contracting, engineering, project managing and consultancy solutions, recognized for excellence, reliability, and innovation.',
+    'To be a leading provider of integrated contracting, project managing, general services and consultancy solutions, recognized for excellence, reliability, and innovation.',
   mission:
     'To deliver high-quality, sustainable, and cost-effective solutions that exceed client expectations through professionalism, teamwork, technology, deep commitment and continuous improvement.',
 });

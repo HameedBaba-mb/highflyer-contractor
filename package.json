@@ -1,7 +1,7 @@
 {
-  "name": "highflyer-contractors-vue",
+  "name": "highflyer-solutions-vue",
   "version": "1.0.0",
-  "description": "HIGHFLYER CONTRACTORS website built with Vue.js Composition API",
+  "description": "HIGHFLYER SOLUTIONS website built with Vue.js Composition API",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

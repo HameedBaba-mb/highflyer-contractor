@@ -3,7 +3,8 @@
     <div class="container section-title text-center mb-5" data-aos="fade-up">
       <h2 class="fw-bold">Our Projects</h2>
       <p class="text-muted">
-        Showcasing our successful projects across construction, rehabilitation, procurement, and renovation works.
+        Showcasing our successful projects across consultancy services, digital
+        transformation, strategic planning, and organizational development.
       </p>
     </div>
 
@@ -75,42 +76,42 @@ const activeFilter = ref("*");
 
 const filters = reactive([
   { value: "*", label: "All" },
-  { value: ".filter-construction", label: "Construction" },
-  { value: ".filter-rehabilitation", label: "Rehabilitation" },
-  { value: ".filter-renovation", label: "Renovation" },
+  { value: ".filter-consulting", label: "Consultancy Services" },
+  { value: ".filter-digital", label: "Digital Services" },
   { value: ".filter-procurement", label: "Procurement" },
+  { value: ".filter-transformation", label: "Transformation" },
 ]);
 
 const portfolio = reactive([
   {
     id: 1,
-    title: "Construction of Classrooms, Offices and Stores",
-    type: "Construction",
-    category: "filter-construction",
-    location: "Talata, Zamfara State",
+    title: "Digital Transformation Strategy for Educational Institution",
+    type: "Digital Services",
+    category: "filter-digital",
+    location: "Zamfara State",
     duration: "2024 – 2025",
     description:
-      "A construction project involving the building of classrooms, offices, and stores to improve educational and administrative infrastructure.",
+      "A comprehensive digital transformation project involving system modernization, process automation, and staff training to improve educational and administrative efficiency.",
   },
   {
     id: 2,
-    title: "Rehabilitation of Existing Office Structures",
-    type: "Rehabilitation",
-    category: "filter-rehabilitation",
+    title: "Organizational Restructuring and Process Optimization",
+    type: "Consultancy Services",
+    category: "filter-consulting",
     location: "Abuja FCT – Abuja",
     duration: "2025",
     description:
-      "Rehabilitation of existing office structures to enhance functionality and working conditions.",
+      "Strategic consulting project to restructure organizational processes and enhance operational efficiency and working conditions.",
   },
   {
     id: 3,
-    title: "Modern Office Room Renovation",
-    type: "Renovation",
-    category: "filter-renovation",
+    title: "Modern Workplace Digital Solutions Implementation",
+    type: "Digital Services",
+    category: "filter-digital",
     location: "Abuja FCT – Abuja",
     duration: "2025",
     description:
-      "Renovation of office spaces to modern standards, improving aesthetics and operational efficiency.",
+      "Implementation of modern digital workplace solutions to improve collaboration, productivity, and operational efficiency.",
   },
   {
     id: 4,
@@ -124,13 +125,13 @@ const portfolio = reactive([
   },
   {
     id: 5,
-    title: "Office Renovation and Partitioning",
-    type: "Renovation",
-    category: "filter-renovation",
+    title: "Organizational Change Management Program",
+    type: "Transformation",
+    category: "filter-transformation",
     location: "Abuja FCT – Abuja",
     duration: "2025",
     description:
-      "Renovation and partitioning of existing office structures to optimize workspace utilization.",
+      "Complete organizational transformation program to optimize workforce management and operational efficiency.",
   },
   {
     id: 6,
@@ -146,7 +147,9 @@ const portfolio = reactive([
 
 const filteredPortfolio = computed(() => {
   if (activeFilter.value === "*") return portfolio;
-  return portfolio.filter((item) => item.category === activeFilter.value.replace(".", ""));
+  return portfolio.filter(
+    (item) => item.category === activeFilter.value.replace(".", "")
+  );
 });
 
 const setActiveFilter = (filter) => {

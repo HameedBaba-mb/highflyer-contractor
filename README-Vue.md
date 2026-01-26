@@ -1,6 +1,6 @@
-# HIGHFLYER CONTRACTORS - Vue.js Version
+# HIGHFLYER SOLUTIONS - Vue.js Version
 
-This is a Vue.js 3 Composition API conversion of the original vanilla HTML website for HIGHFLYER CONTRACTORS LTD.
+This is a Vue.js 3 Composition API conversion of the original vanilla HTML website for HIGHFLYER SOLUTIONS LTD.
 
 ## Features
 

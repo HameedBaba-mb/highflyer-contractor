@@ -26,24 +26,17 @@
 import { reactive } from "vue";
 
 const services = reactive([
+
   {
     id: 1,
-    icon: "bi bi-building",
-    title: "General Contract & Merchandise",
+    icon: "bi bi-laptop",
+    title: "Digital Services",
     description:
-      "We provide comprehensive general contracting services, including procurement, supply, and logistics management for various industries. Our merchandise division ensures timely delivery of high-quality materials and equipment at competitive prices.",
+      "Our digital services arm offers full-spectrum solutions covering digital transformation, technology implementation, software development, and digital marketing. Our commitment to innovation and cutting-edge technology ensures modern and effective digital solutions.",
     link: "#services",
   },
   {
     id: 2,
-    icon: "bi bi-tools",
-    title: "Engineering & Construction",
-    description:
-      "Our engineering and construction arm offers full-spectrum services covering design, planning, civil works, structural engineering, and building construction. Our commitment to excellence and adherence to safety standards ensure every project is executed with precision and quality.",
-    link: "#services",
-  },
-  {
-    id: 3,
     icon: "bi bi-diagram-3",
     title: "Project Management",
     description:
@@ -51,26 +44,28 @@ const services = reactive([
     link: "#services",
   },
   {
-    id: 4,
+    id: 3,
     icon: "bi bi-lightbulb",
-    title: "Consultancy Services",
+    title: "Strategic Advisory",
     description:
-      "Our consultancy services provide expert advice and strategic guidance across engineering, infrastructure, and management projects. Our expert consultants offer practical solutions that help clients optimize performance and achieve sustainable project goals.",
+      "Our strategic advisory services provide expert advice and guidance across business strategy, market analysis, and organizational development. Our expert advisors offer practical solutions that help clients optimize performance and achieve sustainable business goals.",
     link: "#services",
   },
-  // {
-  //   id: 5,
-  //   icon: 'bi bi-award',
-  //   title: 'Quality Excellence',
-  //   description: 'Strong procurement and logistics capabilities with a proven track record of delivering quality projects on time and within budget across diverse industries and project scales.',
-  //   link: '#about'
-  // },
-  // {
-  //   id: 6,
-  //   icon: 'bi bi-handshake',
-  //   title: 'Trusted Partnership',
-  //   description: 'We build long-term relationships based on trust and satisfaction. Our client-focused approach ensures tailored solutions that exceed expectations and create lasting value.',
-  //   link: '#contact'
-  // }
+  {
+    id: 4,
+    icon: "bi bi-gear",
+    title: "General Services",
+    description:
+      "We offer experienced, dynamic, and reliable teams specializing in general services for residential, commercial, and industrial sectors. With a strong commitment to excellence, innovation, and customer satisfaction, we deliver comprehensive, high-quality solutions tailored to meet each client's unique needs.",
+    link: "#services",
+  },
+  {
+    id: 5,
+    icon: "bi bi-chat-dots",
+    title: "Consultancy Services",
+    description:
+      "Our consultancy services provide expert advice and strategic guidance across general services and procurement management projects. Our expert consultants offer practical solutions that help clients optimize performance and achieve sustainable project goals.",
+    link: "#services",
+  }
 ]);
 </script>

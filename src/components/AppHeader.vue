@@ -12,7 +12,7 @@
           class="logo d-flex align-items-center position-absolute start-50 translate-middle-x d-xl-flex d-none"
         >
           <img
-            src="../assets/img/logo.jpeg"
+            src="../assets/img/logo.webp"
             class="img-fluid rounded-circle"
             width="30"
             alt="HIGHFLYER CONTRACTORS"
