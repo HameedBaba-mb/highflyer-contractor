@@ -4,7 +4,7 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Our Core Values</h2>
         <p>
-          The guiding principles that define the spirit of HIGHFLYER SOLUTIONS
+          The guiding principles that define the spirit of HIGHFLYER CONTRACTORS
         </p>
       </div>
 

@@ -5,7 +5,7 @@
         <div class="col-lg-4">
           <div class="footer-brand">
             <router-link to="/" class="logo d-flex align-items-center mb-3">
-              <span class="sitename">HIGHFLYER SOLUTIONS</span>
+              <span class="sitename">HIGHFLYER CONTRACTORS</span>
             </router-link>
             <p class="tagline">
               Innovation, Excellence, Results. Your trusted partner in
@@ -106,7 +106,7 @@
           <div class="col-12">
             <div class="footer-bottom-content">
               <p class="mb-0">
-                © <span class="sitename">HIGHFLYER SOLUTIONS LTD</span>. All
+                © <span class="sitename">HIGHFLYER CONTRACTORS LTD</span>. All
                 rights reserved. RC: 1970142
               </p>
             </div>

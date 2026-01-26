@@ -43,13 +43,13 @@ import { reactive } from 'vue'
 const faqs = reactive([
   {
     id: 1,
-    question: 'What services does HIGHFLYER SOLUTIONS provide?',
+    question: 'What services does HIGHFLYER CONTRACTORS provide?',
     answer: 'We provide comprehensive solutions in Digital Services, Project Management, Strategic Advisory Services, and Consultancy Services. Our multidisciplinary team ensures seamless execution from conception to completion.',
     isOpen: true
   },
   {
     id: 2,
-    question: 'What makes HIGHFLYER SOLUTIONS different from other service providers?',
+    question: 'What makes HIGHFLYER CONTRACTORS different from other service providers?',
     answer: 'We combine excellence, innovation, and integrity with strong strategic planning and digital capabilities. Our proven track record with government agencies, skilled professional team, and commitment to delivering solutions on time and within budget sets us apart.',
     isOpen: false
   },

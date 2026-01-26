@@ -2,7 +2,7 @@
   <section id="features" class="features section light-background">
     <div class="container section-title" data-aos="fade-up">
   <h2>Why Choose Us</h2>
-  <p>Discover why HIGHFLYER SOLUTIONS LTD stands out as your trusted partner for consultancy services and digital transformation excellence.</p>
+  <p>Discover why HIGHFLYER CONTRACTORS LTD stands out as your trusted partner for consultancy services and digital transformation excellence.</p>
 </div>
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">

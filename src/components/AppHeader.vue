@@ -15,10 +15,10 @@
             src="../assets/img/logo.webp"
             class="img-fluid rounded-circle"
             width="30"
-            alt="HIGHFLYER SOLUTIONS"
+            alt="HIGHFLYER CONTRACTORS"
           />
           <h1 class="sitename text-center ms-2" style="font-size: 14px">
-            HIGHFLYER SOLUTIONS
+            HIGHFLYER CONTRACTORS
           </h1>
         </router-link>
 
@@ -28,10 +28,10 @@
             src="../assets/img/logo.jpeg"
             class="img-fluid rounded-circle"
             width="30"
-            alt="HIGHFLYER SOLUTIONS"
+            alt="HIGHFLYER CONTRACTORS"
           />
           <h1 class="sitename text-center ms-2" style="font-size: 14px">
-            HIGHFLYER SOLUTIONS
+            HIGHFLYER CONTRACTORS
           </h1>
         </router-link>
 

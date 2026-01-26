@@ -60,7 +60,7 @@ import { reactive } from "vue";
 const heroData = reactive({
   title: "Innovation, Excellence, Results",
   description:
-    "HIGHFLYER SOLUTIONS is a reputable and dynamic Nigeria incorporated limited company dedicated to providing comprehensive solutions in Digital Services, Project Management, Strategic Advisory Services, and Consultancy Services.",
+    "HIGHFLYER CONTRACTORS is a reputable and dynamic Nigeria incorporated limited company dedicated to providing comprehensive solutions in Digital Services, Project Management, Strategic Advisory Services, and Consultancy Services.",
   stats: [
     { icon: "bi bi-lightning-charge", text: "Excellence & Innovation" },
     { icon: "bi bi-shield-check", text: "Quality Assured" },

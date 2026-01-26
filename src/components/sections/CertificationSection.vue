@@ -69,7 +69,7 @@ const certificates = reactive([
     name: "Certificate of Incorporation",
     authority: "Corporate Affairs Commission (CAC)",
     description:
-      "Officially recognizes HIGHFLYER SOLUTIONS LTD as a legally registered private company limited by shares under the Companies and Allied Matters Act (CAMA 2020). Establishes the company's corporate identity and right to operate in Nigeria.",
+      "Officially recognizes HIGHFLYER CONTRACTORS LTD as a legally registered private company limited by shares under the Companies and Allied Matters Act (CAMA 2020). Establishes the company's corporate identity and right to operate in Nigeria.",
     img: cacImg,
     width: "80px",
   },

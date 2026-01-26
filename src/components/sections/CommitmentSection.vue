@@ -5,7 +5,7 @@
       <div class="container section-title mb-5" data-aos="fade-up">
         <h2 class="fw-bold text-center mb-3">Our Commitment</h2>
         <p class="text-center text-muted">
-          At <strong>HIGHFLYER SOLUTIONS LTD</strong>, we believe that success
+          At <strong>HIGHFLYER CONTRACTORS LTD</strong>, we believe that success
           is built on <strong>trust, quality, and collaboration</strong>. We go
           beyond meeting expectations — we aim to exceed them by delivering
           solutions that inspire confidence and create lasting value for our
